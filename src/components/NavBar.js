@@ -6,7 +6,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/img/logo-m.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon3 from '../assets/img/phone-icon.svg';
+import navIcon4 from '../assets/img/mail-icon.svg';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState ('home');
@@ -48,8 +49,10 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                <a href="https://www.linkedin.com/in/artyom-behter-955209250/"><img src={navIcon1} alt=""/></a>
+                <a href="https://www.linkedin.com/in/artsiom-bekhtser-955209250/"><img src={navIcon1} alt=""/></a>
                 <a href="https://github.com/ArtemBehter"><img src={navIcon2} alt=""/></a>
+                <a href="tel: +48537605265"><img src={navIcon3} className="phone-icon" alt=""/></a>
+                <a href="mailto: artyom.behter@gmail.com"><img src={navIcon4} className="phone-icon" alt=""/></a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>

@@ -340,6 +340,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+.react-multiple-carousel__arrow {
+  margin: -15px;
+}
 
 /************ Projects Css ************/
 .project {

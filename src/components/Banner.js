@@ -12,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [ "Front-end Developer", "React Developer", "Java-Script Developer   " ];
-  const period = 2000;
+  const period = 1200;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -56,12 +56,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Witam w moim portfolio</span>
-                <h1>{`Witam! Jestem Artsiom Junior`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Front-end Developer", "React Developer", "Java-Script Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Jestem 25-letnim Junior Frontend developerem z 2-letnim doświadczeniem.
-Frontend development to także moje hobby, co dodatkowo zwiększa
-przyjemność z pracy. Obecnie szukam pracy, w której będę mógł wykorzystać
-swoją wiedzę i umiejętności oraz dalej rozwijać się jako Frontend developer.
-</p>
+                <h1>{`Hi! My name is Artsiom I am`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Front-end Developer", "React Developer", "Java-Script Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I am a Front-end developer with 3 years of experience. Frontend development is also my hobby, which adds to the pleasure of my work. I am currently looking for a job where I can use my knowledge and skills and further develop myself as a Front-end developer.
+                  </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

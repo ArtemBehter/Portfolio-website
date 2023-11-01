@@ -38,7 +38,7 @@ export const Skills = () => {
                     <Col>
                     <div className="skill-bx">
                         <h2>Skills</h2>
-                        <p>Ta sekcja zawiera moje umiejętności</p>
+                        <p>This section contains my skills</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
