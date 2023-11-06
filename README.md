@@ -1,1 +1,1 @@
-
+Welcome to my digital portfolio, a window into my world as a web developer. This website is more than just a collection of code and design; it's a representation of my passion for crafting exceptional web experiences.
